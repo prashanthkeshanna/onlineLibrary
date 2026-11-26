@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: aero-library-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/aero-db
+    username: postgres
+    password: welcome01
+  jpa:
+    hibernate:
+      ddl-auto: none
